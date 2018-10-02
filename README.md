@@ -7,13 +7,13 @@ WeePager is a simple, funny and fully customizable pager for iOS. Wee!
 Using Cocoapods:
 ```ruby
 use_frameworks!
-pod 'WeePager'
+pod 'WeePager', :git => 'https://github.com/giuseppeoncia/WeePager.git', :branch => 'swift-4.2'
 ```
 Alternatively you can just import the classes from "WeePager" folder.
 
 ## Requirements
-- iOS 8.0+ 
-- Swift 3.0
+- iOS 9.0+ 
+- Swift 4.2
 
 ## How to use
 
