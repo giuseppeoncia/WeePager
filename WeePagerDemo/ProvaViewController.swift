@@ -1,5 +1,5 @@
 //
-//  provaViewController.swift
+//  ProvaViewController.swift
 //  MyPager
 //
 //  Created by Federico Gentile on 02/01/17.

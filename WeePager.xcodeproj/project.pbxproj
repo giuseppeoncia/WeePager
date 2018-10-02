@@ -11,7 +11,7 @@
 		305306711E1EBEDB009BE043 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053066E1E1EBEDB009BE043 /* MenuView.swift */; };
 		305306721E1EBEDB009BE043 /* WeePager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053066F1E1EBEDB009BE043 /* WeePager.swift */; };
 		305306761E1EBF16009BE043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305306731E1EBF16009BE043 /* AppDelegate.swift */; };
-		305306771E1EBF16009BE043 /* provaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305306741E1EBF16009BE043 /* provaViewController.swift */; };
+		305306771E1EBF16009BE043 /* ProvaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305306741E1EBF16009BE043 /* ProvaViewController.swift */; };
 		305306781E1EBF16009BE043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305306751E1EBF16009BE043 /* ViewController.swift */; };
 		3053067B1E1EBF20009BE043 /* Cachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305306791E1EBF20009BE043 /* Cachy.swift */; };
 		3053067C1E1EBF20009BE043 /* CachyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053067A1E1EBF20009BE043 /* CachyExtension.swift */; };
@@ -31,7 +31,7 @@
 		3053066E1E1EBEDB009BE043 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = WeePager/MenuView.swift; sourceTree = SOURCE_ROOT; };
 		3053066F1E1EBEDB009BE043 /* WeePager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeePager.swift; path = WeePager/WeePager.swift; sourceTree = SOURCE_ROOT; };
 		305306731E1EBF16009BE043 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = WeePagerDemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		305306741E1EBF16009BE043 /* provaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = provaViewController.swift; path = WeePagerDemo/provaViewController.swift; sourceTree = SOURCE_ROOT; };
+		305306741E1EBF16009BE043 /* ProvaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProvaViewController.swift; path = WeePagerDemo/ProvaViewController.swift; sourceTree = SOURCE_ROOT; };
 		305306751E1EBF16009BE043 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = WeePagerDemo/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		305306791E1EBF20009BE043 /* Cachy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cachy.swift; path = WeePagerDemo/Cachy.swift; sourceTree = SOURCE_ROOT; };
 		3053067A1E1EBF20009BE043 /* CachyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CachyExtension.swift; path = WeePagerDemo/CachyExtension.swift; sourceTree = SOURCE_ROOT; };
@@ -62,7 +62,7 @@
 		30DEB9A71E1A5FD1000B04F6 = {
 			isa = PBXGroup;
 			children = (
-				30DEB9B21E1A5FD1000B04F6 /* MyPager */,
+				30DEB9B21E1A5FD1000B04F6 /* WeePager */,
 				30DEB9B11E1A5FD1000B04F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,21 +75,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30DEB9B21E1A5FD1000B04F6 /* MyPager */ = {
+		30DEB9B21E1A5FD1000B04F6 /* WeePager */ = {
 			isa = PBXGroup;
 			children = (
 				30E46E821E1C58F2007C98F2 /* BasicTableView */,
 				30FC08851E1ADC560015614A /* Cachy */,
 				30E46E8F1E1C5F9F007C98F2 /* WeePager */,
 				305306731E1EBF16009BE043 /* AppDelegate.swift */,
-				305306741E1EBF16009BE043 /* provaViewController.swift */,
+				305306741E1EBF16009BE043 /* ProvaViewController.swift */,
 				305306751E1EBF16009BE043 /* ViewController.swift */,
 				3053068B1E1EBF43009BE043 /* Assets.xcassets */,
 				305306891E1EBF39009BE043 /* Info.plist */,
 				3053068D1E1EBF50009BE043 /* LaunchScreen.storyboard */,
 				3053068F1E1EBF50009BE043 /* Main.storyboard */,
 			);
-			path = MyPager;
+			path = WeePager;
 			sourceTree = "<group>";
 		};
 		30E46E821E1C58F2007C98F2 /* BasicTableView */ = {
@@ -202,7 +202,7 @@
 				305306761E1EBF16009BE043 /* AppDelegate.swift in Sources */,
 				305306851E1EBF2D009BE043 /* BasicTextHeader.swift in Sources */,
 				305306841E1EBF2D009BE043 /* BasicTextCell.swift in Sources */,
-				305306771E1EBF16009BE043 /* provaViewController.swift in Sources */,
+				305306771E1EBF16009BE043 /* ProvaViewController.swift in Sources */,
 				305306701E1EBEDB009BE043 /* BodyView.swift in Sources */,
 				3053067C1E1EBF20009BE043 /* CachyExtension.swift in Sources */,
 				305306781E1EBF16009BE043 /* ViewController.swift in Sources */,
