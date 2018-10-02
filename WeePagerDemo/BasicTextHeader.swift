@@ -32,13 +32,13 @@ class BasicTextHeader: UIView {
         backGroundToolbar.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(backGroundToolbar)
         
-        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutAttribute.leading, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.leading, multiplier: 1.0, constant: 0))
+        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutConstraint.Attribute.leading, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.leading, multiplier: 1.0, constant: 0))
         
-        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutAttribute.trailing, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.trailing, multiplier: 1.0, constant: 0))
+        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutConstraint.Attribute.trailing, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.trailing, multiplier: 1.0, constant: 0))
         
-        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.top, multiplier: 1.0, constant: 0))
+        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutConstraint.Attribute.top, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.top, multiplier: 1.0, constant: 0))
         
-        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.bottom, multiplier: 1.0, constant: 0))
+        self.addConstraint(NSLayoutConstraint(item: backGroundToolbar, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1.0, constant: 0))
         
         //set headerlabel constraints
         headerLabel.numberOfLines = 0
@@ -47,13 +47,13 @@ class BasicTextHeader: UIView {
         
         self.addSubview(headerLabel)
         
-        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutAttribute.leading, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.leading, multiplier: 1.0, constant: 8))
+        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutConstraint.Attribute.leading, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.leading, multiplier: 1.0, constant: 8))
         
-        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutAttribute.trailing, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.trailing, multiplier: 1.0, constant: -8))
+        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutConstraint.Attribute.trailing, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.trailing, multiplier: 1.0, constant: -8))
         
-        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.top, multiplier: 1.0, constant: 8))
+        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutConstraint.Attribute.top, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.top, multiplier: 1.0, constant: 8))
         
-        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.bottom, multiplier: 1.0, constant: -8))
+        self.addConstraint(NSLayoutConstraint(item: headerLabel, attribute: NSLayoutConstraint.Attribute.bottom, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self, attribute: NSLayoutConstraint.Attribute.bottom, multiplier: 1.0, constant: -8))
         
     }
     

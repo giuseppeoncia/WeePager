@@ -56,7 +56,7 @@ public class WeePager: UIView {
     @IBInspectable public var itemMinWidth : CGFloat = 50
     @IBInspectable public var itemMaxWidth : CGFloat = 150
     @IBInspectable public var itemInset : CGFloat = 16
-    @IBInspectable public var itemAlignment : UIControlContentHorizontalAlignment = .center
+    @IBInspectable public var itemAlignment : UIControl.ContentHorizontalAlignment = .center
     
     @IBInspectable public var itemBoldSelected : Bool = true
     @IBInspectable public var itemCanColor : Bool = true
@@ -249,7 +249,7 @@ public class WeePager: UIView {
         bodyTopConst.constant = (show) ? -self.frame.height : 0
     }
     
-    public func animate(show: Bool, time: Double, options: UIViewAnimationOptions, completion: (()->())? = nil ) {
+    public func animate(show: Bool, time: Double, options: UIView.AnimationOptions, completion: (()->())? = nil ) {
         menuLeftConst.constant = (show) ? 0 : UIScreen.main.bounds.width+16
         bodyTopConst.constant = (show) ? 0 : -self.frame.height
         
